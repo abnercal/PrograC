@@ -13,6 +13,6 @@ class Articulo(models.Model):#postea algo en el blog
     def publicar(self):
         self.fecha_publicacion = timezone.now()
         self.save()
-
+#esto es lo q primero vamos a ver titulo
     def __str__(self):
         return self.titulo
